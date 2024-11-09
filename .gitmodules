@@ -1,0 +1,3 @@
+[submodule "ZakiForge/vendor/spdlog"]
+	path = ZakiForge/vendor/spdlog
+	url = https://github.com/gabime/spdlog

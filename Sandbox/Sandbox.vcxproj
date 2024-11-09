@@ -57,7 +57,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ZF_PLATFORM_WINDOWS;ZF_DEBUG%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ZakiForge\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZakiForge\src;$(SolutionDir)ZakiForge\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -72,7 +73,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>ZF_PLATFORM_WINDOWS;ZF_DEBUG%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>$(SolutionDir)ZakiForge\src;</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(SolutionDir)ZakiForge\src;$(SolutionDir)ZakiForge\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -4,9 +4,13 @@
 
 extern ZakiForge::Application* ZakiForge::CreateApplication();
 
-int main(int argc, char** argv) {
+int main(int argc, char** argv) 
+{
 
-	printf("Zaki ENgine");
+	ZakiForge::Log::Init();
+	ZF_CORE_WARN("Init Log!");
+	ZF_INFO("Hello");
+
 	auto app = ZakiForge::CreateApplication();
 	app->Run();
 	delete app;
@@ -14,4 +18,4 @@ int main(int argc, char** argv) {
 	return 0;
 }
   
-#endif
+#endif  
