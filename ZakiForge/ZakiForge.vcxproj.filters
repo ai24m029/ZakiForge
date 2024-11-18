@@ -4,6 +4,9 @@
     <Filter Include="ZakiForge">
       <UniqueIdentifier>{E7808491-53EB-3808-9C29-EAAD08D3165D}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ZakiForge\Events">
+      <UniqueIdentifier>{EB42511A-D73B-706C-006E-55F1ECC54F78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\ZakiForge.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\ZakiForge\EntryPoint.h">
       <Filter>ZakiForge</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZakiForge\Events\ApplicationEvent.h">
+      <Filter>ZakiForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZakiForge\Events\Event.h">
+      <Filter>ZakiForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZakiForge\Events\KeyEvent.h">
+      <Filter>ZakiForge\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ZakiForge\Events\MouseEvent.h">
+      <Filter>ZakiForge\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\ZakiForge\Log.h">
       <Filter>ZakiForge</Filter>
